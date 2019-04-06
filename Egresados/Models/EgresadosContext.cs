@@ -36,5 +36,7 @@ namespace Egresados.Models
         public System.Data.Entity.DbSet<Egresados.Models.InformacionLaboral> InformacionLaborals { get; set; }
 
         public System.Data.Entity.DbSet<Egresados.Models.InformacionProfesional> InformacionProfesionals { get; set; }
+
+        public System.Data.Entity.DbSet<Egresados.Models.ConsultarOfertaEmpresa> ConsultarOfertaEmpresas { get; set; }
     }
 }

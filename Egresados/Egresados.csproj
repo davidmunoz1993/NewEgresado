@@ -189,6 +189,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdministradorsController.cs" />
     <Compile Include="Controllers\AgregarOfertasController.cs" />
+    <Compile Include="Controllers\ConsultarOfertaEmpresasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InformacionLaboralsController.cs" />
     <Compile Include="Controllers\InformacionPersonalEgresadoesController.cs" />
@@ -210,6 +211,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Administrador.cs" />
     <Compile Include="Models\AgregarOferta.cs" />
+    <Compile Include="Models\ConsultarOfertaEmpresa.cs" />
     <Compile Include="Models\EgresadosContext.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\InformacionLaboral.cs" />
@@ -332,6 +334,11 @@
     <Content Include="Views\InformacionProfesionals\Details.cshtml" />
     <Content Include="Views\InformacionProfesionals\Edit.cshtml" />
     <Content Include="Views\InformacionProfesionals\Index.cshtml" />
+    <Content Include="Views\ConsultarOfertaEmpresas\Create.cshtml" />
+    <Content Include="Views\ConsultarOfertaEmpresas\Delete.cshtml" />
+    <Content Include="Views\ConsultarOfertaEmpresas\Details.cshtml" />
+    <Content Include="Views\ConsultarOfertaEmpresas\Edit.cshtml" />
+    <Content Include="Views\ConsultarOfertaEmpresas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
