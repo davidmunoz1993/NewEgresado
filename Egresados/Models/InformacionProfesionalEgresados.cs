@@ -6,8 +6,9 @@ using System.Web;
 
 namespace Egresados.Models
 {
-    public class InformacionProfesional
+    public class InformacionProfesionalEgresados
     {
+
         [Key]
         public int InformacionProfesionalID { get; set; }
 
@@ -22,7 +23,5 @@ namespace Egresados.Models
         [Display(Name = "Duración")]
         public String duracionProfesional { get; set; }
 
-        public int InformacionPersonalEgresadoID { get; set; }
-        public virtual InformacionPersonalEgresado InformacionPersonalEgresado { get; set; }
     }
 }

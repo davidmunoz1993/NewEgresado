@@ -191,14 +191,18 @@
     <Compile Include="Controllers\AgregarOfertasController.cs" />
     <Compile Include="Controllers\ConsultarOfertaEmpresasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InformacionLaboralEgresadoesController.cs" />
     <Compile Include="Controllers\InformacionLaboralsController.cs" />
+    <Compile Include="Controllers\InformacionPersonalEegresadoesController.cs" />
     <Compile Include="Controllers\InformacionPersonalEgresadoesController.cs" />
+    <Compile Include="Controllers\InformacionProfesionalEgresadosController.cs" />
     <Compile Include="Controllers\InformacionProfesionalsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PublicacionAdminsController.cs" />
     <Compile Include="Controllers\PublicacionesEnEsperas1Controller.cs" />
     <Compile Include="Controllers\PublicacionesEnEsperasController.cs" />
     <Compile Include="Controllers\ReferenciasPersonalesController.cs" />
+    <Compile Include="Controllers\ReferenciasPersonalesEgresadoesController.cs" />
     <Compile Include="Controllers\RegistrarEmpresasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -215,12 +219,16 @@
     <Compile Include="Models\EgresadosContext.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\InformacionLaboral.cs" />
+    <Compile Include="Models\InformacionLaboralEgresado.cs" />
+    <Compile Include="Models\InformacionPersonalEegresado.cs" />
     <Compile Include="Models\InformacionPersonalEgresado.cs" />
     <Compile Include="Models\InformacionProfesional.cs" />
+    <Compile Include="Models\InformacionProfesionalEgresados.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\PublicacionAdmin.cs" />
     <Compile Include="Models\PublicacionesEnEspera.cs" />
     <Compile Include="Models\ReferenciasPersonales.cs" />
+    <Compile Include="Models\ReferenciasPersonalesEgresado.cs" />
     <Compile Include="Models\RegistrarEmpresa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -339,6 +347,26 @@
     <Content Include="Views\ConsultarOfertaEmpresas\Details.cshtml" />
     <Content Include="Views\ConsultarOfertaEmpresas\Edit.cshtml" />
     <Content Include="Views\ConsultarOfertaEmpresas\Index.cshtml" />
+    <Content Include="Views\InformacionLaboralEgresadoes\Create.cshtml" />
+    <Content Include="Views\InformacionLaboralEgresadoes\Delete.cshtml" />
+    <Content Include="Views\InformacionLaboralEgresadoes\Details.cshtml" />
+    <Content Include="Views\InformacionLaboralEgresadoes\Edit.cshtml" />
+    <Content Include="Views\InformacionLaboralEgresadoes\Index.cshtml" />
+    <Content Include="Views\InformacionPersonalEegresadoes\Create.cshtml" />
+    <Content Include="Views\InformacionPersonalEegresadoes\Delete.cshtml" />
+    <Content Include="Views\InformacionPersonalEegresadoes\Details.cshtml" />
+    <Content Include="Views\InformacionPersonalEegresadoes\Edit.cshtml" />
+    <Content Include="Views\InformacionPersonalEegresadoes\Index.cshtml" />
+    <Content Include="Views\ReferenciasPersonalesEgresadoes\Create.cshtml" />
+    <Content Include="Views\ReferenciasPersonalesEgresadoes\Delete.cshtml" />
+    <Content Include="Views\ReferenciasPersonalesEgresadoes\Details.cshtml" />
+    <Content Include="Views\ReferenciasPersonalesEgresadoes\Edit.cshtml" />
+    <Content Include="Views\ReferenciasPersonalesEgresadoes\Index.cshtml" />
+    <Content Include="Views\InformacionProfesionalEgresados\Create.cshtml" />
+    <Content Include="Views\InformacionProfesionalEgresados\Delete.cshtml" />
+    <Content Include="Views\InformacionProfesionalEgresados\Details.cshtml" />
+    <Content Include="Views\InformacionProfesionalEgresados\Edit.cshtml" />
+    <Content Include="Views\InformacionProfesionalEgresados\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

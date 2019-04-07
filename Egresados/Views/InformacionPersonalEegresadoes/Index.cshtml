@@ -1,0 +1,120 @@
+﻿@model IEnumerable<Egresados.Models.InformacionPersonalEgresado>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Informacion Personal</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NombresEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrimerApellidoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SegundoApellidoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaNacimientoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroDocumentoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaExpedicionDocumento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SexoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.correoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DireccionResidenciaEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TelefonoMovilEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TelefonoFijoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExtencionTelefonoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroActaGrado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FotoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadoEgresado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contraseñaEgresado)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NombresEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrimerApellidoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SegundoApellidoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaNacimientoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroDocumentoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaExpedicionDocumento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SexoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.correoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DireccionResidenciaEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TelefonoMovilEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TelefonoFijoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExtencionTelefonoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroActaGrado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FotoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadoEgresado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.contraseñaEgresado)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.InformacionPersonalEgresadosID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.InformacionPersonalEgresadosID })
+        </td>
+    </tr>
+}
+
+</table>

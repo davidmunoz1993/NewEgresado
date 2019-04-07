@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Egresados.Models
 {
-    public class InformacionLaboral
+    public class InformacionLaboralEgresado
     {
         [Key]
         public int InformacionLaboralID { get; set; }
@@ -46,10 +46,5 @@ namespace Egresados.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime fechaEgresoLaboral { get; set; }
-
-        public int InformacionPersonalEgresadoID { get; set; }
-        public virtual InformacionPersonalEgresado InformacionPersonalEgresado { get; set; }
-
-
     }
 }

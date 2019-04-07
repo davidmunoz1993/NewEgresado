@@ -1,0 +1,42 @@
+﻿@model Egresados.Models.InformacionProfesionalEgresados
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>InformacionProfesionalEgresados</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.estudiaActualmente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estudiaActualmente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaTerminacionProfesional)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaTerminacionProfesional)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.duracionProfesional)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.duracionProfesional)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.InformacionProfesionalID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

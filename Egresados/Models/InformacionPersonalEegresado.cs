@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Egresados.Models
 {
-    public class InformacionPersonalEgresado
+    public class InformacionPersonalEegresado
     {
         [Key]
         public int InformacionPersonalEgresadosID { get; set; }
@@ -19,7 +19,7 @@ namespace Egresados.Models
         [Required(ErrorMessage = " Este campo no puede ir vacío")]
         public string PrimerApellidoEgresado { get; set; }
 
-        [Display(Name = "Segundo apeliido")]
+        [Display(Name = "Segundo apellido")]
         [Required(ErrorMessage = " Este campo no puede ir vacío")]
         public string SegundoApellidoEgresado { get; set; }
 
@@ -80,9 +80,5 @@ namespace Egresados.Models
         [Display(Name = "Contraseña")]
         [DataType(DataType.PhoneNumber)]
         public string contraseñaEgresado { get; set; }
-
-        public virtual ICollection<InformacionLaboral> InformacionLaborals { get; set; }
-        public virtual ICollection<InformacionProfesional> InformacionProfesionals { get; set; }
-        public virtual ICollection<ReferenciasPersonales> ReferenciasPersonales { get; set; }
     }
 }
